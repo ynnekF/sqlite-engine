@@ -228,7 +228,7 @@ describe 'Complex operation' do
       ".exit",
     ]
     result = run_script(script)
-    print_result(result, label: "Btree Structure")
+    # print_result(result, label: "Btree Structure")
     contains(result, "leaf (size 7)")
     contains(result, "leaf (size 8)")
   end
